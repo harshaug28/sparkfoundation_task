@@ -128,7 +128,7 @@ try:
     time.sleep(3)
     wd.find_element(By.NAME, 'Name').send_keys('Harsh Patel')
     time.sleep(3)
-    wd.find_element(By.NAME, 'Email').send_keys('180303105211@paruluniversity.ac.in')
+    wd.find_element(By.NAME, 'Email').send_keys('18030310511@paruluniversity.ac.in')
     time.sleep(3)
     select = Select(wd.find_element(By.CLASS_NAME, 'form-control'))
     time.sleep(3)
